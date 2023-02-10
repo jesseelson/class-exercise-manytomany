@@ -1,3 +1,3 @@
 class Student < ApplicationRecord
-    has_many :courses, through :enrolllments
+    has_many :courses, through: :enrolllments
 end
